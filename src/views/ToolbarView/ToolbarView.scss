@@ -1,0 +1,38 @@
+.dhx-demo_toolbar {
+	padding: 0;
+	border-bottom: 1px solid #dfdfdf;
+
+	&__logo {
+		display: flex;
+		width: 240px;
+		background-color: #2BB5AC;
+		margin-right: 12px;
+
+		img {
+			display: flex;
+			background-color: #278E88;
+			padding: 0 8px;
+			height: 55px;
+		}
+
+		span {
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+			text-align: center;
+			color: white;
+			font-weight: 500;
+		}
+	}
+	&__button {
+		.dhx_button--size_small {
+			padding: 4px 36px;
+		}
+	}
+	&__icon .mdi {
+		color: rgba(0, 0, 0, 0.54);
+	}
+	&__image_button {
+		margin-left: 8px;
+	}
+}

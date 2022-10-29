@@ -1,0 +1,6 @@
+/.git
+/.vscode
+node_modules
+build
+src/*.html
+src/lib

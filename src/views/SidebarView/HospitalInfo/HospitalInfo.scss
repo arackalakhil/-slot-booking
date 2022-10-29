@@ -1,0 +1,76 @@
+// css template for DHTMLX Dataview
+// the latest version is available here: https://snippet.dhtmlx.com/dataview_template_e
+// you can find more css templates here: https://dhtmlx.com/docs/products/dhtmlxSuite/how-to-create-javascript-applications/
+
+.dhx_dataview_template_e_box {
+	background: transparent;
+}
+
+.dhx_dataview_template_e_box .dhx_dataview-item {
+	padding: 0;
+	border: none;
+	overflow: hidden;
+}
+
+.dhx-dataview_template_e {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	margin: 4px 0;
+	border: 1px solid #dfdfdf;
+	background: #f7f7f7;
+}
+
+.dhx-dataview_template_e__content {
+	height: 100px;
+	width: 100%;
+}
+
+.dhx-dataview_template_e__title {
+	color: rgba(0, 0, 0, 0.5);
+	font-size: 14px;
+	line-height: 20px;
+	margin: 0;
+	padding: 16px;
+}
+
+.dhx-dataview_template_e__compare {
+	color: rgba(0, 0, 0, 0.7);
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 24px;
+}
+
+.dhx-dataview_template_e__rate {
+	color: #0288d1;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.dhx-dataview_template_e__indicators {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	padding: 0 16px;
+}
+
+.dhx-dataview_template_e__progress-bar {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	height: 4px;
+	width: 100%;
+}
+
+.dhx-dataview_template_e__progress-bar--scale {
+	background: #0288d1;
+}
+// end of code for dataview_template_e

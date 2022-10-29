@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<meta name="description" content="An example of JavaScript/HTML Hospital Management app created with the help of DHTMLX UI components. Try for free for 30 days!"/>
+		<meta name="title" content="JavaScript Hospital Management System - DHTMLX Demo" />
+		<title>DHTMLX - Hospital Management Dashboard</title>
+		<link rel="manifest" href="./static/site.webmanifest" />
+		<link rel="mask-icon" href="./static/safari-pinned-tab.svg" color="#5bbad5" />
+		<meta name="msapplication-TileColor" content="#00aba9" />
+		<meta name="theme-color" content="#00aba9" />
+		<link rel="shortcut icon" href="static/favicon.ico" type="image/x-icon" />
+		<link rel="icon" href="./static/icon-16.png" sizes="16x16" />
+		<link rel="icon" href="./static/icon-32.png" sizes="32x32" />
+		<link rel="icon" href="./static/icon-48.png" sizes="48x48" />
+		<link rel="icon" href="./static/icon-96.png" sizes="96x96" />
+		<link rel="icon" href="./static/icon-144.png" sizes="144x144" />
+		<!-- Icons -->
+		<link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.0.96/css/materialdesignicons.min.css"/>
+		<!-- Suite -->
+		<script src="./lib/suite/suite.js"></script>
+		<link rel="stylesheet" href="./lib/suite/suite.css" />
+		<!-- Diagram -->
+		<script src="./lib/diagram/diagram.js"></script>
+		<link rel="stylesheet" href="./lib/diagram/diagram.css" />
+		<!-- RichText -->
+		<script type="text/javascript" src="./lib/richtext/richtext.js"></script>
+		<link rel="stylesheet" href="./lib/richtext/richtext.css"/>
+		<!-- Spreadsheet -->
+		<script type="text/javascript" src="./lib/spreadsheet/spreadsheet.js"></script>
+		<link rel="stylesheet" href="./lib/spreadsheet/spreadsheet.css"/>
+		<!-- IE Polyfill -->
+		<script>
+			Number.isNaN = Number.isNaN || function(value) {
+				return typeof value === 'number' && isNaN(value);
+			}
+		</script>
+		<!-- App -->
+		<script src="./app.js"></script>
+		<link rel="stylesheet" href="./app.css" />
+	</head>
+	<body>
+		<section class="dhx-demo__container" id="top_layout"></section>
+	</body>
+	<script>
+		const app = new hospitalmanagement.HospitalApp();
+		app.render("#top_layout");
+	</script>
+</html>

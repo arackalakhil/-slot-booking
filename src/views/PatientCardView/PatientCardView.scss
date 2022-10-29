@@ -1,0 +1,23 @@
+.patient-card__window {
+	.dhx_window .dhx_window-header {
+		padding: 0;
+	}
+	
+	.dhx_window .dhx_window-header .dhx_toolbar {
+		padding: 12px 2px;
+		border-bottom: 1px solid #e4e4e4;
+	}
+
+	.dhx_window .dhx_window-header .dhx_toolbar .dhx_navbar,
+	.dhx_window-content {
+		padding: 0;
+	}
+}
+
+.patient-card__layout {
+	overflow: auto;
+
+	.dhx_layout-cell-header__title {
+		text-transform: uppercase;
+	}
+}
